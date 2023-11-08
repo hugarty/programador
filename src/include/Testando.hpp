@@ -9,8 +9,15 @@ class Testando {
     ListaT<Tipo1> listaTipo1_;
 
 public:
-    Testando();
-    int Interage ();
+    Testando()
+    {
+        listaTipo1_.Interage();
+    }
+
+    int Interage ()
+    {
+        return listaTipo1_.Interage();
+    }
 };
 
 #endif

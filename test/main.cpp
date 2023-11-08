@@ -1,11 +1,12 @@
 #include "Unidade.h"
-#include "Lista.h"
-#include "Testando.h"
+#include "Lista.hpp"
+#include "Testando.hpp"
 #include "Tipo1.h"
+
+#include <iostream>
 
 
 int main(int argc, char **argv) {
-    
     Testando<Lista> brincou;
-    brincou.Interage();
+    std::cout << brincou.Interage() << "\n";
 }

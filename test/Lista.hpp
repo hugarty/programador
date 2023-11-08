@@ -6,7 +6,10 @@ class Lista
 {
     T instanciaDoTipo;
 public:
-    int Interage();
+    int Interage()
+    {
+        return instanciaDoTipo.dummy;
+    }
 };
 
 #endif
