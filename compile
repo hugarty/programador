@@ -1,0 +1,3 @@
+cmake -B ./build -S . && \
+make all -C ./build && \
+./build/test/First_test
